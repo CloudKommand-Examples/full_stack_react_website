@@ -1,10 +1,8 @@
-# CloudKommand Tutorial Repository
+# Full Stack React Website Example
 
-This repository was loaded into your Github as part of signing up for CloudKommand. Note that no charges are incurred by deploying the configuration defined in this repository or leaving it deployed.
+This example uses CloudKommand to deploy an S3-hosted React website and then uses AWS Lambda, DynamoDB, IAM, and API Gateway to create an API that you can hit to increment a counter.
 
-It uses AWS Lambda, DynamoDB, IAM, and API Gateway to create an API that you can hit to increment a counter.
-
-Use this kommand.json combined with the folder structure to develop your own application, and check out the CloudKommand-managed plugins at:'
+Use the kommand.json at the base level of this repo, combined with the folder structure, to develop your own application, and check out the CloudKommand-managed plugins at:
 
 - IAM (role and policy): https://github.com/cloudkommand/iam 
 - Lambda (function and layer): https://github.com/cloudkommand/lambda
