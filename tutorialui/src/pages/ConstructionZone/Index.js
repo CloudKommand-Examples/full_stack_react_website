@@ -5,6 +5,7 @@ import CloudKommandLogoDark from "images/cloudkommand_logo_dark.svg"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeft, faChevronLeft
 } from "@fortawesome/free-solid-svg-icons";
+import InvadersImage from "images/invader.svg"
 
 
 export default function ConstructionZone() {
@@ -17,7 +18,7 @@ export default function ConstructionZone() {
     return (
         <div className="construction_zone">
             <div className="header_bar">
-                <img className="header_bar-img" onClick={()=>{route_to_x(`/`)}} src={CloudKommandLogoDark}/>
+                <img className="header_bar-img" onClick={()=>{route_to_x(`/`)}} src={InvadersImage}/>
             </div>
             <div className="construction_zone_body">
                 <div className="title_bar">
