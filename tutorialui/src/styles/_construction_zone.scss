@@ -1,7 +1,7 @@
 
 $app_header_height: 125px;
 $app_footer_height: 200px;
-$app_background_color: $p-darkest;
+$app_background_color: $p-orange-bright;
 // $app_header_color: linear-gradient(225deg, #3D4859 0%, #1F2831 100%);
 // $app_sidebar_color: linear-gradient(0deg, #3D4859 0%, #1F2831 100%);
 $app_margin_top: 30px;
@@ -18,7 +18,7 @@ $app_margin_top: 30px;
   flex-direction: column;
 
   .header_bar {
-    color: $p-bright;
+    color: $p-dark;
     background-color: $app_background_color;
     &-img {
       height:45px;
@@ -53,22 +53,22 @@ $app_margin_top: 30px;
       justify-content: center;
     }
     .title_bar_button {
-      border: 0px solid $p-bright;
+      border: 0px solid $p-dark;
       background-color: transparent;
       border-radius: .5rem;
       padding: 8px;
     }
     .title_bar_icon {
-      color:$p-bright;
+      color:$p-dark;
       cursor:pointer;
     }
     .title_bar_text {
-      color:$p-bright;
+      color:$p-dark;
       font-weight: bold;
       font-size: 1.7rem;
     }
     .title_bar_subtext {
-      color: $p-bright;
+      color: $p-dark;
       width: 50%;
       font-size: 18px;
       margin-top: 16px;
@@ -90,6 +90,6 @@ $app_margin_top: 30px;
 }
 
 
-.emphasis {
-  color:$p-orange-bright;
-}
+// .emphasis {
+//   color:$p-orange-bright;
+// }

@@ -105,9 +105,11 @@ export function GeneralHeader({loggedIn}) {
           {
             width > 940 ?
             <>
-              <a className="landing_page__header-navbar-navitem" onClick={()=>{window.open(CLOUDKOMMAND_DOCUMENTATION_URL, "_blank")}}><img className="landing_page__header-smallimg" src={CloudKommandLogo}/>Usage Guide</a>
-              <a className="landing_page__header-navbar-navitem" onClick={()=>{window.open(DISCORD_CHANNEL_URL, "_blank")}}><img className="landing_page__header-smallimg" src={CloudKommandLogo}/>Q & A</a>
-              <a className="landing_page__header-navbar-navitembtn" onClick={()=>{window.open(CLOUDKOMMAND_LANDING_PAGE_URL, "_blank")}}>Back to <img className="landing_page__header-smallimg" src={CloudKommandLogoDark}/></a>
+              {/* <a className="landing_page__header-navbar-navitem" onClick={()=>{window.open(CLOUDKOMMAND_DOCUMENTATION_URL, "_blank")}}><img className="landing_page__header-smallimg" src={CloudKommandLogoDark}/>Usage Guide</a> */}
+              <a className="landing_page__header-navbar-navitem" onClick={()=>{window.open(DISCORD_CHANNEL_URL, "_blank")}}>
+                {/* <img className="landing_page__header-smallimg" src={CloudKommandLogoDark}/> */}
+                Have Questions?</a>
+              <a className="landing_page__header-navbar-navitembtn" onClick={()=>{window.open(CLOUDKOMMAND_LANDING_PAGE_URL, "_blank")}}>Back to <img className="landing_page__header-smallimg" src={CloudKommandLogo}/></a>
             </>
             : width > 500 ?
             <>
@@ -121,8 +123,8 @@ export function GeneralHeader({loggedIn}) {
                   </button>
                   <div className="landing_page__header-navbar-dropbtn-base"></div>
                   <div className="landing_page__header-navbar-dropdown-content">
-                    <a className="landing_page__header-navbar-dropdown-content-a" onClick={()=>{window.open(CLOUDKOMMAND_DOCUMENTATION_URL, "_blank")}}><span className="landing_page__header-navbar-dropdown-pill"></span><img className="landing_page__header-smallimg" src={CloudKommandLogo}/>Usage Guide</a>
-                    <a className="landing_page__header-navbar-dropdown-content-a" onClick={()=>{window.open(DISCORD_CHANNEL_URL, "_blank")}}><span className="landing_page__header-navbar-dropdown-pill"></span><img className="landing_page__header-smallimg" src={CloudKommandLogo}/>Q & A</a>
+                    <a className="landing_page__header-navbar-dropdown-content-a" onClick={()=>{window.open(CLOUDKOMMAND_DOCUMENTATION_URL, "_blank")}}><span className="landing_page__header-navbar-dropdown-pill"></span><img className="landing_page__header-smallimg" src={CloudKommandLogoDark}/>Usage Guide</a>
+                    <a className="landing_page__header-navbar-dropdown-content-a" onClick={()=>{window.open(DISCORD_CHANNEL_URL, "_blank")}}><span className="landing_page__header-navbar-dropdown-pill"></span><img className="landing_page__header-smallimg" src={CloudKommandLogoDark}/>Q & A</a>
                   </div>
                 </div>
               </div>
@@ -133,8 +135,8 @@ export function GeneralHeader({loggedIn}) {
               </button>
               <div className="landing_page__header-navbar-dropbtn-base"></div>
               <div className="landing_page__header-navbar-dropdown-content">
-                <a className="landing_page__header-navbar-dropdown-content-a" onClick={()=>{window.open(CLOUDKOMMAND_DOCUMENTATION_URL, "_blank")}}><span className="landing_page__header-navbar-dropdown-pill"></span><img className="landing_page__header-smallimg" src={CloudKommandLogo}/>Usage Guide</a>
-                <a className="landing_page__header-navbar-dropdown-content-a" onClick={()=>{window.open(DISCORD_CHANNEL_URL, "_blank")}}><span className="landing_page__header-navbar-dropdown-pill"></span><img className="landing_page__header-smallimg" src={CloudKommandLogo}/>Q & A</a>
+                <a className="landing_page__header-navbar-dropdown-content-a" onClick={()=>{window.open(CLOUDKOMMAND_DOCUMENTATION_URL, "_blank")}}><span className="landing_page__header-navbar-dropdown-pill"></span><img className="landing_page__header-smallimg" src={CloudKommandLogoDark}/>Usage Guide</a>
+                <a className="landing_page__header-navbar-dropdown-content-a" onClick={()=>{window.open(DISCORD_CHANNEL_URL, "_blank")}}><span className="landing_page__header-navbar-dropdown-pill"></span><img className="landing_page__header-smallimg" src={CloudKommandLogoDark}/>Q & A</a>
                 <a className="landing_page__header-navbar-navitembtn" onClick={()=>{window.open(CLOUDKOMMAND_LANDING_PAGE_URL, "_blank")}}>Back to<img className="landing_page__header-smallimg" src={CloudKommandLogoDark}/></a>
               </div>
             </div>
@@ -250,7 +252,7 @@ export default function Landing() {
                   <div className="bd_intro_container">
                   <div className="bd_intro_container_items_headliner" >
                       {/* <div className="bd_intro_container_items_headliner_item">
-                        <img className="bd_intro_container_items_headliner_image" onClick={()=>{navigate("/")}} src={CloudKommandLogo}/>
+                        <img className="bd_intro_container_items_headliner_image" onClick={()=>{navigate("/")}} src={CloudKommandLogoDark}/>
                         <div className="bd_intro_container_items_headliner_inner_text">CloudKommand</div>
                       </div> */}
                       <div className="bd_intro_container_items_headliner_item">
@@ -275,7 +277,7 @@ export default function Landing() {
                         <div className="body_first_section_content_column_header_items">
                           <div className="body_first_section_content_column_header_additional_text"><span className="emphasis">The # of plug-ins users deployed with</span></div>
                           <div className="body_first_section_header_logo_item">
-                            <img className="body_first_section_content_column_header_logo"onClick={()=>{navigate("/")}} src={CloudKommandLogo}/>
+                            <img className="body_first_section_content_column_header_logo"onClick={()=>{navigate("/")}} src={CloudKommandLogoDark}/>
                             <div className="body_first_section_content_column_header_items_logo_text">CloudKommand <span className="emphasis">:</span></div>
                           </div>
                         </div>
@@ -314,7 +316,7 @@ export default function Landing() {
                       <div className="landing_overview_headliner_items_inner_text_secondary">More About</div>
                     </div>
                     <div className="landing_overview_headliner_container_item_set">
-                      <img className="landing_overview_headliner_items_image" onClick={()=>{navigate("/")}} src={CloudKommandLogo}/>
+                      <img className="landing_overview_headliner_items_image" onClick={()=>{navigate("/")}} src={CloudKommandLogoDark}/>
                       <div className="landing_overview_headliner_items_inner_text">CloudKommand</div>
                     </div>
                   </div>

@@ -3,7 +3,7 @@
   "name": "CloudKommand Sample App",
   "icons": [
     {
-      "src": "cloudkommand_logo.svg",
+      "src": "invader.svg",
       "type": "image/svg"
     }
   ],

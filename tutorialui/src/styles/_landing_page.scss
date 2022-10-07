@@ -1,7 +1,7 @@
 
 $app_header_height: 125px;
 $app_footer_height: 223px;
-$app_background_color: $p-darkest;
+$app_background_color: $p-orange-bright; //$p-dark;
 $app_margin_top: 30px;
 
 html {
@@ -18,7 +18,7 @@ html {
   flex-direction: column;
 
   &__header {
-    color: $p-bright;
+    color: $p-dark;
     background-color: $app_background_color;
     &-img {
       height:45px;
@@ -47,7 +47,7 @@ html {
       &-navitem {
         padding:20px;
         font-weight: bold;
-        color:$p-bright;
+        color:$p-dark;
         border-radius: 0.25rem;
         border: 2px solid $app_background_color;
         line-height: 50px;
@@ -55,35 +55,35 @@ html {
 
         &:hover {
           text-decoration: underline;
-          color:$p-bright;
+          color:$p-dark;
         }
         &.active {
           text-decoration: underline;
-          color:$p-bright;
+          color:$p-dark;
         }
 
         a {
-          color:$p-bright;
+          color:$p-dark;
           border-radius: 0.25rem;
           &:hover {
             text-decoration: underline;
-            color:$p-bright;
+            color:$p-dark;
           }
           &.active {
             text-decoration: underline;
-            color:$p-bright;
+            color:$p-dark;
           }
         }
       }
       &-navitembtn {
         padding:12px;
         font-weight: bold;
-        color:$p-dark !important;
+        color:$p-bright !important;
         border-radius: 0.5rem;
-        border: 2px solid $p-orange-bright;
+        border: 2px solid $p-dark;
         line-height: 50px;
         margin-left: 10px;
-        background-color: $p-orange-bright;
+        background-color: $p-dark;
         position:relative;
 
         &:hover {
@@ -96,7 +96,7 @@ html {
         }
 
         a {
-          color:$p-bright;
+          color:$p-dark;
           border-radius: 0.25rem;
           &:hover {
             text-decoration: underline;
@@ -112,7 +112,7 @@ html {
       /* Dropdown Button */
       &-dropbtn {
         background-color: $p-dark;
-        color: $p-bright;
+        color: $p-dark;
         padding: 11px;
         font-size: 16px;
         // border: none;
@@ -136,16 +136,16 @@ html {
 
       &-dropdown-navitembtn {
         font-weight: bold;
-        color:$p-orange-bright;
+        color:$p-dark;
         position:relative;
 
         &:hover {
           text-decoration: underline;
-          color:$p-orange-bright;
+          color:$p-dark;
         }
         &.active {
           text-decoration: underline;
-          color:$p-orange-bright;
+          color:$p-dark;
         }
 
         a {
@@ -174,7 +174,7 @@ html {
       &-dropdown-content {
         display: none;
         position: absolute;
-        background-color: $p-darkest;
+        background-color: $p-dark;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         z-index: 1;
         border-radius: 0.5rem;
@@ -188,7 +188,7 @@ html {
       &-dropdown-pill {
         height:100%;
         width:0px;
-        border:3px solid $p-darkest;
+        border:3px solid $p-dark;
         border-radius:1rem;
         margin-right:13px;
       }
@@ -196,14 +196,14 @@ html {
       &-dropdown-btnpill {
         height:100%;
         width:0px;
-        border:3px solid $p-darkest;
+        border:3px solid $p-dark;
         border-radius:1rem;
         margin-right:13px;
       }
 
       /* Links inside the dropdown */
       &-dropdown-content a {
-        color: $p-gray-bright;
+        color: $p-dark;
         border-radius: 0.5rem;
         padding: 12px 16px;
         font-weight: bold;
@@ -228,7 +228,7 @@ html {
     align-items:center;
     flex-direction: column;
     min-height: calc(100vh - 95px);
-    background: $p-bright;
+    background: $p-dark;
   }
 
   .left_image_pattern {
@@ -306,13 +306,13 @@ html {
   .bd_intro_container_items_headliner_inner_text {
     font-size: 2rem;
     font-weight:bold;
-    color:$p-bright;
+    color:$p-dark;
     margin-top: 6px;
   }
   .bd_intro_container_items_headliner_inner_text_secondary {
     font-size: 2rem;
     font-weight:bold;
-    color:$p-bright;
+    color:$p-dark;
     margin-top: 6px;
     margin-right: 12px;
   }
@@ -355,20 +355,20 @@ html {
   .body_first_section_content_column_header_items_logo_text {
     font-size: 1.5rem;
     font-weight:bold;
-    color:$p-bright;
+    color:$p-dark;
     margin-top: 4px;
   }
   .body_first_section_content_column_header_title {
     font-size: 1.5rem;
     font-weight:bold;
-    color:$p-bright;
+    color:$p-dark;
     white-space: nowrap;
     margin-top: 30px;
   }
   .body_first_section_content_column_header_additional_text {
     font-size: 1.5rem;
     font-weight:bold;
-    color:$p-bright;
+    color:$p-dark;
     // white-space: nowrap;
   }
   .body_first_section_content_column_header_logo {
@@ -378,7 +378,7 @@ html {
   .body_first_section_content_column_extensions_deployed_counter{
     font-size: 2.3rem;
     font-weight:bold;
-    color:$p-orange-bright;
+    color:$p-dark;
     text-align: center;
     margin-top: 20px;
   }
@@ -387,9 +387,9 @@ html {
     font-size: 1.5rem;
     font-weight:bold;
     width: 300px;
-    background-color: $p-orange-bright;
-    color: $p-dark;
-    border: 1px solid $p-orange-bright;
+    background-color: $p-dark;
+    color: $p-bright;
+    border: 1px solid $p-dark;
     border-radius: 0.25rem;
     justify-content: flex-start;
     cursor:pointer;
@@ -404,7 +404,7 @@ html {
   .body_first_section_content_column_api_ping_counter{
     font-size: 1.5rem;
     font-weight:bold;
-    color:$p-orange-bright;
+    color:$p-dark;
     text-align: center;
     margin-top: 20px;
   }
@@ -434,13 +434,13 @@ html {
   .landing_overview_headliner_items_inner_text {
     font-size: 2.3rem;
     font-weight:bold;
-    color:$p-bright;
+    color:$p-dark;
     margin-top: 6px;
   }
   .landing_overview_headliner_items_inner_text_secondary {
     font-size: 2.3rem;
     font-weight:bold;
-    color:$p-orange-bright;
+    color:$p-dark;
     margin-top: 6px;
     margin-right: 12px;
   }
@@ -463,7 +463,7 @@ html {
   .bd_intro_container_items {
     font-size: 1.5rem;
     font-weight:bold;
-    color:$p-bright;
+    color:$p-dark;
     justify-content: flex-start;
     text-align:center;
     margin: 0px 8px 16px 8px;
@@ -471,7 +471,7 @@ html {
   .bd_intro_container_items_extra_emphasis {
     font-size: 3.1rem;
     font-weight:bold;
-    color:$p-bright;
+    color:$p-dark;
     justify-content: flex-start;
     margin-bottom: 16px;
     text-align:center;
@@ -481,9 +481,9 @@ html {
     margin-right:20px;
     font-size: 1.5rem;
     font-weight:bold;
-    background-color: $p-orange-bright;
+    background-color: $p-dark;
     color: $p-dark;
-    border: 1px solid $p-orange-bright;
+    border: 1px solid $p-dark;
     border-radius: 0.25rem;
     justify-content: flex-start;
     cursor:pointer;
@@ -491,21 +491,21 @@ html {
     text-align:center;
     &:hover {
       color:$p-dark;
-      background-color: $p-bright;
-      border: 1px solid $p-bright;
+      background-color: $p-dark;
+      border: 1px solid $p-dark;
     }
   }
 
   .bd-title-items {
     font-size: 1.5rem;
     font-weight:bold;
-    color:$p-bright;
+    color:$p-dark;
     justify-content: flex-start;
   }
   .bd-title-items-last {
     font-size: 1.5rem;
     font-weight:bold;
-    color:$p-bright;
+    color:$p-dark;
     justify-content: flex-start;
   }
   .bd-p1 {
@@ -521,7 +521,7 @@ html {
   .bd-p1-items {
     font-size: 1rem;
     font-weight:normal;
-    color:$p-bright;
+    color:$p-dark;
     justify-content: flex-start;
     word-wrap: break-all;
   }
@@ -530,7 +530,7 @@ html {
     margin-right:20px;
     font-size: 1.5rem;
     font-weight:bold;
-    color:$p-orange-bright;
+    color:$p-dark;
     justify-content: flex-start;
   }
   .bd-video-wrapper {
@@ -612,7 +612,7 @@ html {
   .landing_overview_content_header {
     font-size: 2.5rem;
     font-weight: bold;
-    color: $p-bright;
+    color: $p-dark;
     justify-content: flex-start;
     margin-bottom: 16px;
     text-align: start;
@@ -621,7 +621,7 @@ html {
     font-size: 1.15rem;
     line-height: 28px;
     font-weight: bold;
-    color: $p-orange-bright;
+    color: $p-dark;
     justify-content: flex-start;
     text-align: start;
     margin-bottom: 4px;
@@ -629,8 +629,8 @@ html {
   .landing_overview_content_second_description {
     font-size: 1.1rem;
     line-height: 28px;
-    font-weight: bold;
-    color: $p-gray-bright;
+    font-weight: normal;
+    color: $p-dark;
     justify-content: flex-start;
     margin-bottom: 24px;
     text-align: start;
@@ -645,12 +645,12 @@ html {
     }
     footer {
         background-color: $app_background_color;
-        color: $p-bright;
+        color: $p-dark;
         width:100%;
     }
     footer a {
         text-decoration: none;
-        color: $p-bright;
+        color: $p-dark;
     }
     a:hover {
         text-decoration: underline;
@@ -739,7 +739,7 @@ html {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: $p-darkest;
+  background: $p-dark;
   border-radius: 1rem;
 }
 
@@ -751,7 +751,7 @@ html {
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: $p-bright;
+  background: $p-dark;
 }
 /* Scrollbar corner color */
 ::-webkit-scrollbar-corner {
@@ -759,22 +759,22 @@ html {
 }
 
 /* Change color of dropdown links on hover */
-.landing_page__header-navbar-dropdown-content a:hover {color:$p-bright;}
+.landing_page__header-navbar-dropdown-content a:hover {color:$p-dark;}
 
 /* Make visible the dropdown link pill on hover */
-.landing_page__header-navbar-dropdown-content .landing_page__header-navbar-dropdown-content-a:hover .landing_page__header-navbar-dropdown-pill {border:3px solid $p-bright;}
-.landing_page__header-navbar-dropdown-content .landing_page__header-navbar-dropdown-content-abtn:hover .landing_page__header-navbar-dropdown-btnpill {border:3px solid $p-orange-bright;}
+.landing_page__header-navbar-dropdown-content .landing_page__header-navbar-dropdown-content-a:hover .landing_page__header-navbar-dropdown-pill {border:3px solid $p-dark;}
+.landing_page__header-navbar-dropdown-content .landing_page__header-navbar-dropdown-content-abtn:hover .landing_page__header-navbar-dropdown-btnpill {border:3px solid $p-dark;}
 
 /* Show the dropdown menu on hover */
 .landing_page__header-navbar-dropdown:hover .landing_page__header-navbar-dropdown-content {display: block;}
 .landing_page__header-navbar-dropbtn-base:hover .landing_page__header-navbar-dropdown-content {display: block;}
 
 /* Give the dropdown button a border when the dropdown content is shown */
-.landing_page__header-navbar-dropdown:hover .landing_page__header-navbar-dropbtn {border: 2px solid $p-bright;}
+.landing_page__header-navbar-dropdown:hover .landing_page__header-navbar-dropbtn {border: 2px solid $p-dark;}
 
 .emphasis {
-  color:$p-orange-bright;
+  color:$p-dark;
 }
 .bright {
-  color:$p-bright;
+  color:$p-dark;
 }

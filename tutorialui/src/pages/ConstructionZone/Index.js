@@ -1,7 +1,7 @@
 import space_coder from "images/space_coder.gif"
 import "styles/App.scss"
 import {useNavigate} from "react-router-dom";
-import CloudKommandLogo from "images/cloudkommand_logo.svg"
+import CloudKommandLogoDark from "images/cloudkommand_logo_dark.svg"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeft, faChevronLeft
 } from "@fortawesome/free-solid-svg-icons";
@@ -17,7 +17,7 @@ export default function ConstructionZone() {
     return (
         <div className="construction_zone">
             <div className="header_bar">
-                <img className="header_bar-img" onClick={()=>{route_to_x(`/`)}} src={CloudKommandLogo}/>
+                <img className="header_bar-img" onClick={()=>{route_to_x(`/`)}} src={CloudKommandLogoDark}/>
             </div>
             <div className="construction_zone_body">
                 <div className="title_bar">
