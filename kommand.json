@@ -21,6 +21,7 @@
             "resources": {
                 "/{proxy+}": {
                     "OPTIONS": "@tutorial_lambda:props.arn",
+                    "POST": "@tutorial_lambda:props.arn",
                     "GET": "@tutorial_lambda:props.arn"
                 }
             },

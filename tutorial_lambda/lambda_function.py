@@ -26,7 +26,7 @@ def lambda_handler(event, context):
             }
             return response
         
-        if (path == "/api/v1/iterate_counter"):
+        if (http_method == "POST" and path == "/api/v1/iterate_counter"):
             response = dynamodb.update_item(
                     TableName=table_name,
                     Key=add_ddb_meta({"pkey": "dkf"}),

@@ -222,7 +222,7 @@ export default function Landing() {
     const [ clickCounter, setClickCounter ] = useState(null)
 
     async function iterateClickCounter() {
-        const click_counter_response = await get(`/iterate_counter`)
+        const click_counter_response = await post(`/iterate_counter`)
         if (response.ok) setClickCounter(click_counter_response)
     }
     async function getClickCounter() {
